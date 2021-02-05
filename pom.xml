@@ -140,9 +140,11 @@ Wisconsin-Madison and Google, Inc.</license.copyrightOwners>
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<!-- ONNX TEST -->
 		<dependency>
-			<groupId>org.tensorflow</groupId>
-			<artifactId>tensorflow</artifactId>
+		    <groupId>com.microsoft.onnxruntime</groupId>
+		    <artifactId>onnxruntime</artifactId>
+		    <version>1.6.0</version>
 		</dependency>
 		<dependency>
 			<!--
